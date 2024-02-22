@@ -174,9 +174,11 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 13%;
+  max-width: 15%;
+  min-width: 11%;
   font-family: 'Permanent Marker', cursive;
   min-height: 150px;
+  justify-content: center;
 }
 
 .card-container {
@@ -193,16 +195,18 @@ body {
   margin-bottom: 5%;
   text-align: left;
   font-weight: bold;
-  max-width: 100%;
+  min-width: 100%;
 
 }
 
 .card-content {
   font-size: 22px;
-  margin-bottom: 5%;
-  text-align: left;
+  margin-bottom: 3%;
   max-width: 100%;
   color: #4c4c4c;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .card-color-1{
